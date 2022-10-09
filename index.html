@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald:wght@200;300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    display: grid;
+    
+}
+.navigationBar{
+    background: #1d1d1d;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.navigationBar .logo {
+    color: white;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.navigationBar .logo h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: rgb(221, 52, 1);
+    padding-right: 10px;
+    
+    
+}
+.navigationBar .logo h3 {
+    display: inline-block;
+    font-size: 43px;
+    color: wheat;
+    
+}
+.navbar {
+    text-align: center;
+    font-size: 25px;
+}
+.navbar ul {
+    list-style: none;
+    margin-top: 5px;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+   padding-top: 5px;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgba(199, 199, 193, 0.753);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.navbar ul li a:hover {
+    
+    color: rgba(105, 104, 102, 0.849);
+    transition: .8s;
+
+}
+
+.ditails {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto;
+    background: rgba(199, 197, 190, 0.452);
+    padding: 120px 250px;
+    text-align: center;
+    
+}
+
+.ditails .paragraph {
+    text-align: justify;
+    color: rgb(82, 80, 80);
+    letter-spacing: .5px;
+    margin: auto;
+}
+
+.paragraph a {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 140px;
+    color: white;
+    box-shadow: 1px .5px 10px gray;
+    background: rgb(255, 115, 1);
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    letter-spacing: .3px;
+    font-size: 20px;
+}
+
+.paragraph a:hover {
+    color: black;
+    background: blanchedalmond;
+    transition: 1s;
+}
+.ditails img {
+    width: 500px;
+    margin: auto;
+}
+.miniContainerBox {
+    padding: 100px;
+    margin: auto;
+    align-items: center;
+   
+
+}
+.miniContainerBox h1 {
+    margin-left: 100px;
+    margin-bottom: 25px;
+    color: rgb(82, 80, 80);
+}
+.miniContainer {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    padding-top: 0;
+    margin: auto;
+}
+.mini-box {
+    width: 320px;
+    height: 450px;
+}
+.mini-box img{
+    width: 319px;
+    height: 260px;
+    align-items: center;
+}
+
+.mini-box h3 {
+    color: #1d1d1d;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.mini-box p{
+    color: rgb(82, 80, 80);
+    padding-left: 5px;
+    letter-spacing: .3px;
+}
+
+.ph3a {
+    width: 319px;
+    height: max-content;
+}
+.ph3a:hover {
+    border-left: 1px solid rgb(211, 209, 209);
+    border-right: 1px solid rgb(211, 209, 209);
+    border-bottom: 1px solid rgb(211, 209, 209);
+    transition: 1s;
+}
+
+.mini-box a {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 140px;
+    color: white;
+    box-shadow: 1px .5px 10px gray;
+    background: rgb(255, 115, 1);
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    letter-spacing: .3px;
+    font-size: 20px;
+}
+
+.mini-box a:hover {
+    color: black;
+    background: blanchedalmond;
+    transition: 1s;
+}
+
+
+/*footer*/
+
+/**/
+.footer-section {
+    background: #1A1A1A ;
+    color: white;
+    font-family: 'Scheherazade New', serif;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    font-size: 20px;
+    padding: 0 100px;
+}
+.social-time-about {
+    padding: 30px;
+}
+
+.social-time-about .month-lastes {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 80px auto;
+}
+
+.month span{
+    display: block;
+    font-size: 30px;
+    background: whitesmoke;
+    color: #404640;
+    font-family: 'Oswald', sans-serif;
+    margin: 12px 0;
+    text-align: center;
+    padding: 5px 0;
+    line-height: 35px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.lastest {
+    
+    color: #bdbaba;
+}
+
+.lastest h4 {
+    font-size: 24px;
+    color: azure;
+}
+
+.social-time-about ul {
+    list-style: none;
+}
+.social-time-about ul li {
+    margin-bottom: 10px;
+}
+.social-time-about ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+
+.aboutp {
+    color: #bdbaba;
+    
+}
+.social-time-about ul li a i {
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+  
+}
+
+.social-time-about ul li a i.bx:hover {
+    background: #bdbaba;
+    color: rgb(43, 42, 42);
+}
+.social-time-about ul li a span {
+    font-size: 30px;
+    padding: 0 10px;
+    color: #bdbaba;
+    
+}
+.social-time-about ul li a i.bxl-facebook {
+    background: #17AAFD ;
+    color: white;
+    padding: 5px;
+
+}
+
+
+.social-time-about ul li a i.bxl-google-plus {
+    background: #EC1B0A;
+    color: white;
+    padding: 5px;
+
+}
+
+
+.social-time-about ul li a i.bxl-twitter {
+    background: #1C99E7;
+    color: white;
+    padding: 5px;
+}
+
+.social-time-about ul li a i.bx-rss {
+    background: rgb(131, 90, 3);
+    color: white;
+    padding: 5px;
+
+}
+footer {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 10px 0 0 0 ;
+    font-size: 20px;
+    background: #bdbaba;
+}
+footer p  {
+    text-align: center;
+    display: inline-block;
+    color: #1A1A1A;
+}
+
+footer h2 {
+    display: inline-block;
+    color: #1A1A1A;
+   padding-left: 10px;
+   padding-right: 3px;
+    color: rgb(221, 52, 1);
+    font-family: 'Lobster', cursive;
+}
+
+footer span {
+    color: #404640;
+    font-family: 'Lobster', cursive;
+}
+
+@media(max-width: 768px){
+    .container {
+        display: unset;
+    }
+    .navigationBar {
+        width:100%;
+        display: grid;
+        grid-template-columns: 200px auto;
+        
+    }
+    .navbar ul {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin: 5px 8px;
+    }
+
+    .navbar ul li a {
+        width: auto;
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .navigationBar .logo {
+        text-align: left;
+    }
+
+    .navigationBar .logo h1 {
+        font-size: 40px;
+        margin: 0;
+        padding-right: 5px;
+        text-align: left;
+ 
+ 
+    }
+
+    .navigationBar .logo h3 {
+        font-size: 30px;
+        text-align: left;
+    }
+    
+
+    .ditails {
+        padding: 20px;
+        display: block;
+        
+        width: 100%;
+    }
+
+    .ditails img {
+        margin-top: 35px ;
+        width:  100%;
+        
+
+        
+    }
+    
+
+    .miniContainerBox {
+        display: unset;
+        margin: 10px;
+    } 
+    .miniContainerBox h1 {
+        margin-left: 20px;
+    }
+
+    .miniContainer {
+        display: unset;
+        margin: 10px;
+        width: 100%;
+        
+    }
+    .mini-box {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+       
+    }
+
+    .mini-box img {
+        display: unset;
+        width: 100%;
+        
+
+    }
+
+    .mini-box .ph3a {
+    
+        width: 100%;
+        height: 200px;
+        
+    }
+    .footer-section {
+        display: block;
+        padding: 0px;
+        width: 100%;
+        
+    }
+
+    .social-connected ul{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .social-connected ul span {
+        display: none;
+    }
+
+    .social-time-about{
+        padding: 20px;
+    }
+
+    .aboutp {
+        line-height: 35px;
+    }
+
+    footer {
+        height: auto;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+    
